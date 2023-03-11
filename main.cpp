@@ -1,16 +1,10 @@
-#include <algorithm>  // for sort
+#include <algorithm>
 #include <fstream>
 #include <iostream>
 #include <sstream>
 #include <string>
 #include <vector>
-using std::cout;
-using std::ifstream;
-using std::istringstream;
-using std::sort;
-using std::string;
-using std::vector;
-using std::abs;
+using namespace std;
 
 // TODO: Add kStart and kFinish enumerators to the State enum.
 enum class State {kEmpty, kObstacle, kClosed, kPath, kStart, kFinish};
